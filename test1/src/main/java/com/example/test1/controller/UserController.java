@@ -22,7 +22,7 @@ public class UserController {
 	@RequestMapping("/login.do") 
     public String login(Model model) throws Exception{
 
-        return "/login";
+        return "/login/login";
     }
 	@RequestMapping(value = "/login.dox", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
 	@ResponseBody
