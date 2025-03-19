@@ -12,4 +12,5 @@ public interface UserMapper {
 	User userLogin(HashMap<String, Object> map);
 	
 	// 안녕하세요
+	// 반가워요
 }
